@@ -1,5 +1,5 @@
 # TASM
-This repository provides the scripts and workflows required to perform the Multidimensional Temperature-Accelerated String Method (MTASM). The method is used to identify multiple transition pathways connecting two known metastable states, compute the corresponding minimum free-energy paths (MFEPs), estimate the associated free-energy landscapes, and calculate transition rates using Kramers theory.
+This repository provides the scripts and workflows required to perform the Multidimensional Temperature-Accelerated String Method (TASM). The method is used to identify multiple transition pathways connecting two known metastable states, compute the corresponding minimum free-energy paths (MFEPs), estimate the associated free-energy landscapes, and calculate transition rates using Kramers theory.
 
 Follow the detailed steps provided in the TASM_workflow PDF document, which follows the steps involved in the below figure sequentially.
 
