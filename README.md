@@ -52,7 +52,7 @@ Please cite the following paper if you are using the repository or any segment o
 # Collaboration 
 Please feel free to reach out to me at avijeetkulshrestha@gmail.com if you need help in setting it up for your system of interest
 
-Best Regards.  
-Avijeet Kulshrestha
+Best Regards,
+Avijeet Kulshrestha.
 
 
