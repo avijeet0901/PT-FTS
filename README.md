@@ -1,16 +1,10 @@
 # TASM
-This repository includes the necessary code to perform the Multidimensional Temperature-Accelerated String Method, which helps find multiple transition pathways between two known metastable states and their corresponding free energies and Kramers' rates. 
+This repository provides the scripts and workflows required to perform the Multidimensional Temperature-Accelerated String Method (MTASM). The method is used to identify multiple transition pathways connecting two known metastable states, compute the corresponding minimum free-energy paths (MFEPs), estimate the associated free-energy landscapes, and calculate transition rates using Kramers theory.
 
-The repository is organized as follows: 
-TASM/
-│
-├── README.md
-├── scripts/
-├── post_processing/
-├── examples/
-│     ├── Alanine/
-│     └── Phenylalanine/
-└── LICENSE
+Follow the detailed steps provided in the TASM_workflow PDF document, which follows the steps involved in the below figure sequentially.
+
+<img width="6031" height="2741" alt="figure-1" src="https://github.com/user-attachments/assets/1081fddb-d8dc-4ff8-ad11-2d71b985a3e0" />
+
 
 # Package requirement
 ```
@@ -21,9 +15,13 @@ pip3 install pymbar
 pip3 install scipy
 
 ```
-# Usage
-The scripts folder has the necessary scripts and code to perform multidimensional TASM
-The post_processing folder contains codes to compute free energies from MBAR rates and Kramers rates from free energies. 
+# Folders
+The string_evolution folder has the necessary scripts and code to perform multidimensional TASM
+
+Check the MBAR repository (https://github.com/avijeet0901/MBAR) to compute the weights used in the free-energy calculations.
+
+The post_processing folder contains codes to compute convergence, exchange probability, free energies from MBAR weights, and Kramers rates from free energies. 
+
 The example folder contains the necessary input files to simulate two model systems: alanine-dipeptide and phenylalanine-dipeptide in vacuum.
 
 
@@ -44,13 +42,13 @@ Please cite the following paper if you are using the repository or any segment o
 @article{kulshrestha2022finite,
   title={Multidimensional Temperature-Accelerated String Method: Sampling Multiple Transition Pathways and Slow Variables},
   author={Kulshrestha, Avijeet},
-  journal={SChemRxiv},
+  journal={ChemRxiv},
   year={2026}
 }
 
 ```
 # Collaboration 
-Please feel free to reach out to me at avijeetkulshrestha@gmail.com if you need help in setting it up for your system of interest
+If you have any questions or need assistance setting up the workflow for your system of interest, please feel free to contact me at avijeetkulshrestha@gmail.com. I will be happy to help.
 
 Best Regards,
 Avijeet Kulshrestha.
