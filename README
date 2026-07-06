@@ -1,0 +1,58 @@
+# TASM
+This repository includes the necessary code to perform the Multidimensional Temperature-Accelerated String Method, which helps find multiple transition pathways between two known metastable states and their corresponding free energies and Kramers' rates. 
+
+The repository is organized as follows: 
+TASM/
+│
+├── README.md
+├── scripts/
+├── post_processing/
+├── examples/
+│     ├── Alanine/
+│     └── Phenylalanine/
+└── LICENSE
+
+# Package requirement
+```
+pip3 install numpy
+pip3 install os
+pip3 install argparse
+pip3 install pymbar
+pip3 install scipy
+
+```
+# Usage
+The scripts folder has the necessary scripts and code to perform multidimensional TASM
+The post_processing folder contains codes to compute free energies from MBAR rates and Kramers rates from free energies. 
+The example folder contains the necessary input files to simulate two model systems: alanine-dipeptide and phenylalanine-dipeptide in vacuum.
+
+
+# Citations
+Please cite the following paper if you are using the repository or any segment of this repository:
+
+```
+@article{kulshrestha2022finite,
+  title={Finite temperature string method with umbrella sampling using path collective variables: application to secondary structure change in a protein},
+  author={Kulshrestha, Avijeet and Punnathanam, Sudeep N and Ayappa, K Ganapathy},
+  journal={Soft Matter},
+  volume={18},
+  number={39},
+  pages={7593--7603},
+  year={2022},
+  publisher={Royal Society of Chemistry}
+}
+@article{kulshrestha2022finite,
+  title={Multidimensional Temperature-Accelerated String Method: Sampling Multiple Transition Pathways and Slow Variables},
+  author={Kulshrestha, Avijeet},
+  journal={SChemRxiv},
+  year={2026}
+}
+
+```
+# Collaboration 
+Please feel free to reach out to me at avijeetkulshrestha@gmail.com if you need help in setting it up for your system of interest
+
+Best Regards.  
+Avijeet Kulshrestha
+
+
