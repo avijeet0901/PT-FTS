@@ -21,7 +21,7 @@ Check the MBAR repository (https://github.com/avijeet0901/MBAR) to compute the w
 
 The post_processing folder contains codes to compute string convergence, exchange probability, free energies from MBAR weights, diffusivity, and effective Kramers rate from the free energy profile. 
 
-The example folder contains the necessary input files to simulate two model systems: alanine-dipeptide and phenylalanine-dipeptide in vacuum.
+The examples folder contains the necessary input files to simulate two model systems: alanine-dipeptide and phenylalanine-dipeptide in vacuum.
 
 
 # Citations
