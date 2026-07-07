@@ -13,14 +13,13 @@ pip3 install os
 pip3 install argparse
 pip3 install pymbar
 pip3 install scipy
-
 ```
 # Folders
 The string_evolution folder has the necessary scripts and code to perform multidimensional TASM
 
 Check the MBAR repository (https://github.com/avijeet0901/MBAR) to compute the weights used in the free-energy calculations.
 
-The post_processing folder contains codes to compute convergence, exchange probability, free energies from MBAR weights, and Kramers rates from free energies. 
+The post_processing folder contains codes to compute string convergence, exchange probability, free energies from MBAR weights, diffusivity, and effective Kramers rate from the free energy profile. 
 
 The example folder contains the necessary input files to simulate two model systems: alanine-dipeptide and phenylalanine-dipeptide in vacuum.
 
@@ -47,8 +46,8 @@ Please cite the following paper if you are using the repository or any segment o
 }
 
 ```
-# Collaboration 
-If you have any questions or need help setting up the workflow for your system of interest, please feel free to contact me at avijeetkulshrestha@gmail.com. I will be happy to help.
+# Collaboration
+If you encounter any issues or have questions about the workflow, please open a GitHub Issue. For discussions about adapting the workflow to your system of interest or potential collaborations, feel free to contact me at avijeetkulshrestha@gmail.com. I'd be happy to help.
 
 Best Regards,
 
