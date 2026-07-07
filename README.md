@@ -25,7 +25,7 @@ The example folder contains the necessary input files to simulate two model syst
 
 
 # Citations
-Please cite the following paper if you are using the repository or any segment of this repository:
+Please cite the following papers if you are using the repository or any segment of this repository:
 
 ```
 @article{kulshrestha2022finite,
@@ -42,7 +42,8 @@ Please cite the following paper if you are using the repository or any segment o
   title={Multidimensional Temperature-Accelerated String Method: Sampling Multiple Transition Pathways and Slow Variables},
   author={Kulshrestha, Avijeet},
   journal={ChemRxiv},
-  year={2026}
+  year={2026},
+  doi = {10.26434/chemrxiv.15005676/v1}
 }
 
 ```
